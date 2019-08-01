@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppIntefaz.InstagramPage">
+    <StackLayout Orientation="Vertical" Padding="20">
+        <StackLayout>
+            <Label Text="nyc_Photographer"                />
+        </StackLayout>
+        <Image Source="descarga.jpg"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Like"/>
+            <Button Text="Comment" />
+            <Button Text="Share"/>
+        </StackLayout>
+        <StackLayout>
+            <BoxView Color="Gray" HeightRequest="1" />
+            <Label Text=" 700 Likes" FontAttributes="Bold"/>
+            <Label Text="This design is similar to Instagram app. You can see that a few elements are stacked vertically (username, image, buttons, a horizontal line, number of likes, etc)."
+                   TextColor="LightGray"/> 
+            
+        </StackLayout>
+    </StackLayout>
+</ContentPage >
